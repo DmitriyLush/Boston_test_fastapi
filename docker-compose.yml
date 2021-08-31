@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  signatures:
+    build: sign_service
+    restart: always
+    ports:
+      - 80:80
