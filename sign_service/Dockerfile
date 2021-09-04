@@ -4,7 +4,7 @@ COPY app /app
 
 WORKDIR /app
 
-RUN pip3 install -r requirenments.txt
+RUN pip3 install -r requirements.txt
 
 
 EXPOSE 80
